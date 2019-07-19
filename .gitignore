@@ -1,0 +1,9 @@
+### STS ###
+.class
+### IntelliJ IDEA ###
+.idea
+
+###myself###
+src/test/
+target/
+/.idea
