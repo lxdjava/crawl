@@ -18,7 +18,7 @@ public class HttpPostParamTest {
         //设置请求地址是https://search.bilibili.com/all?keyword=java%E7%88%AC%E8%99%AB&from_source=banner_search
         HttpPost httpPost =new HttpPost("https://yun.itheima.com/search");
         //声明List集合，封装表单中的参数
-        List<NameValuePair> params = new ArrayList<NameValuePair>();
+        List<NameValuePair> params = new ArrayList<>();
         params.add(new BasicNameValuePair("keys","java"));
 
 

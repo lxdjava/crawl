@@ -44,7 +44,7 @@ public class HttpClientPoolTest {
         httpPost.setConfig(config);
 
         //声明List集合，封装表单中的参数
-        List<NameValuePair> params = new ArrayList<NameValuePair>();
+        List<NameValuePair> params = new ArrayList<>();
         params.add(new BasicNameValuePair("keys","java"));
 
 
